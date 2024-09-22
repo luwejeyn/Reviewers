@@ -1,0 +1,453 @@
+<!DOCType html>
+
+<html>
+    <head>
+        <title>Reviewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #con{
+                background-color: rgb(216, 255, 191);
+            }
+            #btnSub{
+                background-color: pink;
+            }.full-screen {
+                width: 100vw;  /* 100% of the viewport width */
+                height: 100vh; /* 100% of the viewport height */
+                background-color: lightgreen; /* Example background color */
+                display: flex; /* Optional: for centering content */
+                justify-content: center; /* Optional: horizontal centering */
+                align-items: center; /* Optional: vertical centering */
+            }
+        </style>
+        <script type="text/javascript">
+            var num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, num11, num12, num13, num14, num15, num16, num17, num18, num19, num20;
+            var num21, num22, num23, num24, num25, num26, num27, num28, num29, num30, num31, num31, num33, num34, num35, num36, num37, num38, num39, num40;
+    
+            function checkAns(){
+                num1 = document.getElementById("ans1").value;
+                num2 = document.getElementById("ans2").value;
+                num3 = document.getElementById("ans3").value;
+                num4 = document.getElementById("ans4").value;
+                num5 = document.getElementById("ans5").value;
+                num6 = document.getElementById("ans6").value;
+                num7 = document.getElementById("ans7").value;
+                num8 = document.getElementById("ans8").value;
+                num9 = document.getElementById("ans9").value;
+                num10 = document.getElementById("ans10").value;
+                num11 = document.getElementById("ans11").value;
+                num12 = document.getElementById("ans12").value;
+                num13 = document.getElementById("ans13").value;
+                num14 = document.getElementById("ans14").value;
+                num15 = document.getElementById("ans15").value;
+                num16 = document.getElementById("ans16").value;
+                num17 = document.getElementById("ans17").value;
+                num18 = document.getElementById("ans18").value;
+                num19 = document.getElementById("ans19").value;
+                num20 = document.getElementById("ans20").value;
+                num21 = document.getElementById("ans21").value;
+                num22 = document.getElementById("ans22").value;
+                num23 = document.getElementById("ans23").value;
+                num24 = document.getElementById("ans24").value;
+                num25 = document.getElementById("ans25").value;
+                num26 = document.getElementById("ans26").value;
+                num27 = document.getElementById("ans27").value;
+                num28 = document.getElementById("ans28").value;
+                num29 = document.getElementById("ans29").value;
+                num30 = document.getElementById("ans30").value;
+                num31 = document.getElementById("ans31").value;
+                num32 = document.getElementById("ans32").value;
+                num33 = document.getElementById("ans33").value;
+                num34 = document.getElementById("ans34").value;
+                num35 = document.getElementById("ans35").value;
+                num36 = document.getElementById("ans36").value;
+                num37 = document.getElementById("ans37").value;
+                num38 = document.getElementById("ans38").value;
+                num39 = document.getElementById("ans39").value;
+                num40 = document.getElementById("ans40").value;
+
+                if (num1 == "oop"){
+                    document.getElementById("answ1").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ1").innerHTML = '<span style="color: red;">WRONG (oop) </span>'
+                }
+                if (num2 == "priority queue"){
+                    document.getElementById("answ2").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ2").innerHTML = '<span style="color: red;">WRONG (priority queue) </span>'
+                }
+                if (num3 == "dynamic"){
+                    document.getElementById("answ3").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ3").innerHTML = '<span style="color: red;">WRONG (dynamic) </span>'
+                }
+                if (num4 == "polymorphism"){
+                    document.getElementById("answ4").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ4").innerHTML = '<span style="color: red;">WRONG (polymorphism)</span>'
+                }
+                if (num5 == "byte"){
+                    document.getElementById("answ5").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ5").innerHTML = '<span style="color: red;">WRONG (byte) </span>'
+                }
+                if (num6 == "literal"){
+                    document.getElementById("answ6").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ6").innerHTML = '<span style="color: red;">WRONG (literal)</span>'
+                }
+                if (num7 == "data types"){
+                    document.getElementById("answ7").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ7").innerHTML = '<span style="color: red;">WRONG (data types) </span>'
+                }
+                if (num8 == "switch statements"){
+                    document.getElementById("answ8").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ8").innerHTML = '<span style="color: red;">WRONG (switch statements)</span>'
+                }
+                if (num9 == "condition"){
+                    document.getElementById("answ9").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ9").innerHTML = '<span style="color: red;">WRONG (condition) </span>'
+                }
+                if (num10 == "double"){
+                    document.getElementById("answ10").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ10").innerHTML = '<span style="color: red;">WRONG (double) </span>'
+                }
+                if (num11 == "variables"){
+                    document.getElementById("answ11").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ11").innerHTML = '<span style="color: red;">WRONG (variables) </span>'
+                }
+                if (num12 == "method"){
+                    document.getElementById("answ12").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ12").innerHTML = '<span style="color: red;">WRONG (method) </span>'
+                }
+                if (num13 == "object"){
+                    document.getElementById("answ13").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ13").innerHTML = '<span style="color: red;">WRONG (object) </span>'
+                }
+                if (num14 == "statements"){
+                    document.getElementById("answ14").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ14").innerHTML = '<span style="color: red;">WRONG (statements) </span>'
+                }
+                if (num15 == "long"){
+                    document.getElementById("answ15").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ15").innerHTML = '<span style="color: red;">WRONG (long) </span>'
+                }
+                if (num16 == "java"){
+                    document.getElementById("answ16").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ16").innerHTML = '<span style="color: red;">WRONG (java)</span>'
+                }
+                if (num17 == "loops" ){
+                    document.getElementById("answ17").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ17").innerHTML = '<span style="color: red;">WRONG< (loops) /span>'
+                }
+                if (num18 == "while loop"){
+                    document.getElementById("answ18").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ18").innerHTML = '<span style="color: red;">WRONG (while loop)</span>'
+                }
+                if (num19 == "two-way-if-else statement"){
+                    document.getElementById("answ19").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ19").innerHTML = '<span style="color: red;">WRONG (two-way-if-else statement)</span>'
+                }
+                if (num20 == "logical operators"){
+                    document.getElementById("answ20").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ20").innerHTML = '<span style="color: red;">WRONG (logical operators)</span>'
+                }
+                if (num21 == "ide"||num21=="integrated development environment"){
+                    document.getElementById("answ21").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ21").innerHTML = '<span style="color: red;">WRONG (ide: integrated development environment)</span>'
+                }
+                if (num22 == "assignment"){
+                    document.getElementById("answ22").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ22").innerHTML = '<span style="color: red;">WRONG (assignment)</span>'
+                }
+                if (num23 == "expressions"){
+                    document.getElementById("answ23").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ23").innerHTML = '<span style="color: red;">WRONG (expressions)</span>'
+                }
+                if (num24 == "import"){
+                    document.getElementById("answ24").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ24").innerHTML = '<span style="color: red;">WRONG (import)</span>'
+                }
+                if (num25 == "upper case"){
+                    document.getElementById("answ25").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ25").innerHTML = '<span style="color: red;">WRONG (upper case)</span>'
+                }
+                if (num26 == "simple"){
+                    document.getElementById("answ26").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ26").innerHTML = '<span style="color: red;">WRONG (simple)</span>'
+                }
+                if (num27 == "write once, run anywhere"){
+                    document.getElementById("answ28").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ27").innerHTML = '<span style="color: red;">WRONG (write once, run anywhere)</span>'
+                }
+                if (num28 == "encapsulation"){
+                    document.getElementById("answ28").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ28").innerHTML = '<span style="color: red;">WRONG (encapsulation)</span>'
+                }
+                if (num29 == "set"){
+                    document.getElementById("answ29").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ29").innerHTML = '<span style="color: red;">WRONG (set)</span>'
+                }
+                if (num30 == "private or internal"||num30=="private"||num30=="internal"){
+                    document.getElementById("answ30").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ30").innerHTML = '<span style="color: red;">WRONG (private or internal)</span>'
+                }
+                if (num31 == "f"){
+                    document.getElementById("answ31").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ31").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num32 == "f"){
+                    document.getElementById("answ32").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ32").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num33 == "f"){
+                    document.getElementById("answ33").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ33").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num34 == "f"){
+                    document.getElementById("answ34").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ34").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num35 == "f"){
+                    document.getElementById("answ35").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ35").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num36 == "t"){
+                    document.getElementById("answ36").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ36").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num37 == "t"){
+                    document.getElementById("answ37").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ37").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num38 == "t"){
+                    document.getElementById("answ38").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ38").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num39 == "t"){
+                    document.getElementById("answ39").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ39").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num40 == "t"){
+                    document.getElementById("answ40").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ40").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <center>
+            <div class="container" id="con">
+            <br /><br /><br /><br />
+            <h2>COSC21</h2>
+            <hr color="black">
+            <h4>INSTRUCTION: Write the correct answer in small letters.</h4>
+            <p>1. It focus on objects that combine data and behavior. </p>
+            <input type="text" required="required" id="ans1"/>
+            <p id="answ1"></p>
+            <p>2. It is used for retrieving and removing either the minimum or maximum element. </p>
+            <input type="text" required="required" id="ans2"/>
+            <p id="answ2"></p>
+            <p>3. Java adapts to an evolving environment by carrying extensive amount of run-time information. </p>
+            <input type="text" required="required" id="ans3"/>
+            <p id="answ3"></p>
+            <p>4. Allows objects of different types to be treated as objects of a common super type.</p>
+            <input type="text" required="required" id="ans4"/>
+            <p id="answ4"></p>
+            <p>5. 8-bit signed twos complement integer.</p>
+            <input type="text" required="required" id="ans5"/>
+            <p id="answ5"></p>
+            <p>6. A source code representation of a fixed value.</p>
+            <input type="text" required="required" id="ans6"/>
+            <p id="answ6"></p>
+            <p>7. Define the type of data a variable can hold.</p>
+            <input type="text" required="required" id="ans7"/>
+            <p id="answ7"></p>
+            <p>8. A cleaner way to handle multiple conditions based on a single variable.</p>
+            <input type="text" required="required" id="ans8"/>
+            <p id="answ8"></p>
+            <p>9. The loop continues as long as this is true.</p>
+            <input type="text" required="required" id="ans9"/>
+            <p id="answ9"></p>
+            <p>10. Used as the default data type for decimal values.</p>
+            <input type="text" required="required" id="ans10"/>
+            <p id="answ10"></p>
+            <p>11. Reserved memory locations to store values. </p>
+            <input type="text" required="required" id="ans11"/>
+            <p id="answ11"></p>
+            <p>12. It is basically a behavior.</p>
+            <input type="text" required="required" id="ans12"/>
+            <p id="answ12"></p>
+            <p>13. It is an instance of a class.</p>
+            <input type="text" required="required" id="ans13"/>
+            <p id="answ13"></p>
+            <p>14. This instructs the computer to do a specific task. </p>
+            <input type="text" required="required" id="ans14"/>
+            <p id="answ14"></p>
+            <p>15. 64-bit signed twos complement integer. </p>
+            <input type="text" required="required" id="ans15"/>
+            <p id="answ15"></p>
+            <p>16. Initially designed for interactive television, but adapted for the World Wide Web.</p>
+            <input type="text" required="required" id="ans16"/>
+            <p id="answ16"></p>
+            <p>17. It is fundamental control structures in programming that allow code to be executed repeatedly based on a condition. </p>
+            <input type="text" required="required" id="ans17"/>
+            <p id="answ17"></p>
+            <p>18. Use when the number of iterations is not known beforehand. </p>
+            <input type="text" required="required" id="ans18"/>
+            <p id="answ18"></p>
+            <p>19. To handle both cases of a condition (true and false). </p>
+            <input type="text" required="required" id="ans19"/>
+            <p id="answ19"></p>
+            <p>20. Help combine multiple boolean expressions.</p>
+            <input type="text" required="required" id="ans20"/>
+            <p id="answ20"></p>
+            <p>21. Software like IntelliJ, Eclipse for writing Java code.  </p>
+            <input type="text" required="required" id="ans21"/>
+            <p id="answ21"></p>
+            <p>22. Setting values to variables. </p>
+            <input type="text" required="required" id="ans22"/>
+            <p id="answ22"></p>
+            <p>23. Combination of variables, operators, literals to produce a value. </p>
+            <input type="text" required="required" id="ans23"/>
+            <p id="answ23"></p>
+            <p>24. This instructs the computer to take account a file, library or another class/object.</p>
+            <input type="text" required="required" id="ans24"/>
+            <p id="answ24"></p>
+            <p>25. For all class names the first letter should be in ___________</p>
+            <input type="text" required="required" id="ans25"/>
+            <p id="answ25"></p>
+            <p>26. Designed to be easy to learn. </p>
+            <input type="text" required="required" id="ans26"/>
+            <p id="answ26"></p>
+            <p>27. What is the meaning of WORA? </p>
+            <input type="text" required="required" id="ans27"/>
+            <p id="answ27"></p>
+            <p>28. It hides the internal state of an object and only exposes a controlled interface. </p>
+            <input type="text" required="required" id="ans28"/>
+            <p id="answ28"></p>
+            <p>29. It represents a collection of elements that do not have to be in order.</p>
+            <input type="text" required="required" id="ans29"/>
+            <p id="answ29"></p>
+            <p>30. The representations and the implementation.</p>
+            <input type="text" required="required" id="ans30"/>
+            <p id="answ30"></p>
+            <br /><br /><br />
+
+            <hr color="black">
+            <h4>INSTRUCTION: Write t if the statement is true and write f if the statement is false.</h4>
+            <p>31. Stack represents a hierarchical nature of a structure in a graphical form.</p>
+            <input type="text" required="required" id="ans31"/>
+            <p id="answ31"></p>
+            <p>32. In 1969, Sun Microsystems released the first public implementation as Java 1.0.</p>
+            <input type="text" required="required" id="ans32"/>
+            <p id="answ32"></p>
+            <p>33. Java is case insensitive.</p>
+            <input type="text" required="required" id="ans33"/>
+            <p id="answ33"></p>
+            <p>34. A key word can be used as an identifier.</p>
+            <input type="text" required="required" id="ans34"/>
+            <p id="answ34"></p>
+            <p>35. The while loop is a post-condition loop.</p>
+            <input type="text" required="required" id="ans35"/>
+            <p id="answ35"></p>
+            <p>36. In do-while even if the condition is false, the loop will execute once.</p>
+            <input type="text" required="required" id="ans36"/>
+            <p id="answ36"></p>
+            <p>37. Booleans default value: False.</p>
+            <input type="text" required="required" id="ans37"/>
+            <p id="answ37"></p>
+            <p>38. Inheritance allows one class to inherit properties and behaviors from another. </p>
+            <input type="text" required="required" id="ans38"/>
+            <p id="answ38"></p>
+            <p>39. Heap is a partially sorted binary tree.</p>
+            <input type="text" required="required" id="ans39"/>
+            <p id="answ39"></p>
+            <p>40. Procedural: Focus on functions and sequences of actions. </p>
+            <input type="text" required="required" id="ans40"/>
+            <p id="answ40"></p>
+        
+            <br /><br /><br />
+            <input type="submit" value="Submit" id="btnSub" onClick="checkAns()"/>
+            <br /><br /><br />
+            <a href="Home.html" target="_self"><input type="submit" value="Back" id="btnSub"/></a>
+            <a href="index.html" target="_self"><input type="submit" value="Cancel" id="btnSub"/></a>
+            <br /><br /><br />
+            </div>
+        </center>
+    </body>
+    </html>

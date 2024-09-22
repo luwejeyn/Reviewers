@@ -1,0 +1,526 @@
+<!DOCType html>
+
+<html>
+    <head>
+        <title>Reviewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #con{
+                background-color: rgb(216, 255, 191);
+            }
+            #btnSub{
+                background-color: pink;
+            }
+            .full-screen {
+                width: 100vw;  /* 100% of the viewport width */
+                height: 100vh; /* 100% of the viewport height */
+                background-color: lightgreen; /* Example background color */
+                display: flex; /* Optional: for centering content */
+                justify-content: center; /* Optional: horizontal centering */
+                align-items: center; /* Optional: vertical centering */
+            }
+        </style>
+        <script type="text/javascript">
+            var num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, num11, num12, num13, num14, num15, num16, num17, num18, num19, num20, num21, num22, num23, num24, num25;
+            var num26, num27, num28, num29, num30, num31, num31, num33, num34, num35, num36, num37, num38, num39, num40, num41, num42, num43, num44, num45, num46, num47, num48, num49, num50;
+    
+            function checkAns(){
+                num1 = document.getElementById("ans1").value;
+                num2 = document.getElementById("ans2").value;
+                num3 = document.getElementById("ans3").value;
+                num4 = document.getElementById("ans4").value;
+                num5 = document.getElementById("ans5").value;
+                num6 = document.getElementById("ans6").value;
+                num7 = document.getElementById("ans7").value;
+                num8 = document.getElementById("ans8").value;
+                num9 = document.getElementById("ans9").value;
+                num10 = document.getElementById("ans10").value;
+                num11 = document.getElementById("ans11").value;
+                num12 = document.getElementById("ans12").value;
+                num13 = document.getElementById("ans13").value;
+                num14 = document.getElementById("ans14").value;
+                num15 = document.getElementById("ans15").value;
+                num16 = document.getElementById("ans16").value;
+                num17 = document.getElementById("ans17").value;
+                num18 = document.getElementById("ans18").value;
+                num19 = document.getElementById("ans19").value;
+                num20 = document.getElementById("ans20").value;
+                num21 = document.getElementById("ans21").value;
+                num22 = document.getElementById("ans22").value;
+                num23 = document.getElementById("ans23").value;
+                num24 = document.getElementById("ans24").value;
+                num25 = document.getElementById("ans25").value;
+                num26 = document.getElementById("ans26").value;
+                num27 = document.getElementById("ans27").value;
+                num28 = document.getElementById("ans28").value;
+                num29 = document.getElementById("ans29").value;
+                num30 = document.getElementById("ans30").value;
+                num31 = document.getElementById("ans31").value;
+                num32 = document.getElementById("ans32").value;
+                num33 = document.getElementById("ans33").value;
+                num34 = document.getElementById("ans34").value;
+                num35 = document.getElementById("ans35").value;
+                num36 = document.getElementById("ans36").value;
+                num37 = document.getElementById("ans37").value;
+                num38 = document.getElementById("ans38").value;
+                num39 = document.getElementById("ans39").value;
+                num40 = document.getElementById("ans40").value;
+                num41 = document.getElementById("ans41").value;
+                num42 = document.getElementById("ans42").value;
+                num43 = document.getElementById("ans43").value;
+                num44 = document.getElementById("ans44").value;
+                num45 = document.getElementById("ans45").value;
+                num46 = document.getElementById("ans46").value;
+                num47 = document.getElementById("ans47").value;
+                num48 = document.getElementById("ans48").value;
+                num49 = document.getElementById("ans49").value;
+                num50 = document.getElementById("ans50").value;
+
+                if (num1 == "n"){
+                    document.getElementById("answ1").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ1").innerHTML = '<span style="color: red;">WRONG (n) </span>'
+                }
+                if (num2 == "h"){
+                    document.getElementById("answ2").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ2").innerHTML = '<span style="color: red;">WRONG (h) </span>'
+                }
+                if (num3 == "e"){
+                    document.getElementById("answ3").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ3").innerHTML = '<span style="color: red;">WRONG (e) </span>'
+                }
+                if (num4 == "d"){
+                    document.getElementById("answ4").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ4").innerHTML = '<span style="color: red;">WRONG (d)</span>'
+                }
+                if (num5 == "m"){
+                    document.getElementById("answ5").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ5").innerHTML = '<span style="color: red;">WRONG (m) </span>'
+                }
+                if (num6 == "g"){
+                    document.getElementById("answ6").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ6").innerHTML = '<span style="color: red;">WRONG (g)</span>'
+                }
+                if (num7 == "f"){
+                    document.getElementById("answ7").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ7").innerHTML = '<span style="color: red;">WRONG (f) </span>'
+                }
+                if (num8 == "v"){
+                    document.getElementById("answ8").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ8").innerHTML = '<span style="color: red;">WRONG (v)</span>'
+                }
+                if (num9 == "a"){
+                    document.getElementById("answ9").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ9").innerHTML = '<span style="color: red;">WRONG (a) </span>'
+                }
+                if (num10 == "w"){
+                    document.getElementById("answ10").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ10").innerHTML = '<span style="color: red;">WRONG (w) </span>'
+                }
+                if (num11 == "p"){
+                    document.getElementById("answ11").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ11").innerHTML = '<span style="color: red;">WRONG (p) </span>'
+                }
+                if (num12 == "u"){
+                    document.getElementById("answ12").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ12").innerHTML = '<span style="color: red;">WRONG (u) </span>'
+                }
+                if (num13 == "b"){
+                    document.getElementById("answ13").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ13").innerHTML = '<span style="color: red;">WRONG (b) </span>'
+                }
+                if (num14 == "t"){
+                    document.getElementById("answ14").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ14").innerHTML = '<span style="color: red;">WRONG (t) </span>'
+                }
+                if (num15 == "r"){
+                    document.getElementById("answ15").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ15").innerHTML = '<span style="color: red;">WRONG (r) </span>'
+                }
+                if (num16 == "s"){
+                    document.getElementById("answ16").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ16").innerHTML = '<span style="color: red;">WRONG (s)</span>'
+                }
+                if (num17 == "c" ){
+                    document.getElementById("answ17").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ17").innerHTML = '<span style="color: red;">WRONG< (c) /span>'
+                }
+                if (num18 == "q"){
+                    document.getElementById("answ18").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ18").innerHTML = '<span style="color: red;">WRONG (q)</span>'
+                }
+                if (num19 == "j"){
+                    document.getElementById("answ19").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ19").innerHTML = '<span style="color: red;">WRONG (j)</span>'
+                }
+                if (num20 == "x"){
+                    document.getElementById("answ20").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ20").innerHTML = '<span style="color: red;">WRONG (x)</span>'
+                }
+                if (num21 == "i"){
+                    document.getElementById("answ21").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ21").innerHTML = '<span style="color: red;">WRONG (i)</span>'
+                }
+                if (num22 == "y"){
+                    document.getElementById("answ22").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ22").innerHTML = '<span style="color: red;">WRONG (y)</span>'
+                }
+                if (num23 == "o"){
+                    document.getElementById("answ23").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ23").innerHTML = '<span style="color: red;">WRONG (o)</span>'
+                }
+                if (num24 == "k"){
+                    document.getElementById("answ24").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ24").innerHTML = '<span style="color: red;">WRONG (k)</span>'
+                }
+                if (num25 == "l"){
+                    document.getElementById("answ25").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ25").innerHTML = '<span style="color: red;">WRONG (l)</span>'
+                }
+                if (num26 == "f"){
+                    document.getElementById("answ26").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ26").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num27 == "f"){
+                    document.getElementById("answ28").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ27").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num28 == "t"){
+                    document.getElementById("answ28").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ28").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num29 == "t"){
+                    document.getElementById("answ29").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ29").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num30 == "f"){
+                    document.getElementById("answ30").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ30").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num31 == "t"){
+                    document.getElementById("answ31").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ31").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num32 == "t"){
+                    document.getElementById("answ32").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ32").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num33 == "f"){
+                    document.getElementById("answ33").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ33").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num34 == "t"){
+                    document.getElementById("answ34").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ34").innerHTML = '<span style="color: red;">WRONG (t)</span>'
+                }
+                if (num35 == "f"){
+                    document.getElementById("answ35").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ35").innerHTML = '<span style="color: red;">WRONG (f)</span>'
+                }
+                if (num36=="run-the-business data"||num36=="integrate-the-business data"||num36=="monitor-the-business data"){
+                    if (num37=="run-the-business data"||num37=="integrate-the-business data"||num37=="monitor-the-business data"){
+                        if (num38=="run-the-business data"||num8=="integrate-the-business data"||num38=="monitor-the-business data"){
+                            document.getElementById("answ3638").innerHTML = '<span style="color: green;">CORRECT</span>'
+                        }
+                        else {
+                            document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (run-the-business data, integrate-the-business data, monitor-the-business data)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (run-the-business data, integrate-the-business data, monitor-the-business data)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (run-the-business data, integrate-the-business data, monitor-the-business data)</span>'
+                }
+                if (num39=="analyze the data"||num39=="profile the data"||num39=="cleanse the data"||num39=="integrate the data"||num39=="standardize the data"||num39=="data quality"){
+                    if (num40=="analyze the data"||num40=="profile the data"||num40=="cleanse the data"||num40=="integrate the data"||num40=="standardize the data"||num40=="data quality"){
+                        if (num41=="analyze the data"||num41=="profile the data"||num41=="cleanse the data"||num41=="integrate the data"||num41=="standardize the data"||num41=="data quality"){
+                            if (num42=="analyze the data"||num42=="profile the data"||num42=="cleanse the data"||num42=="integrate the data"||num42=="standardize the data"||num42=="data quality"){
+                                if (num43=="analyze the data"||num43=="profile the data"||num43=="cleanse the data"||num43=="integrate the data"||num43=="standardize the data"||num43=="data quality"){
+                                    if (num44=="analyze the data"||num44=="profile the data"||num44=="cleanse the data"||num44=="integrate the data"||num44=="standardize the data"||num44=="data quality"){
+                                        document.getElementById("answ3944").innerHTML = '<span style="color: green;">CORRECT</span>'
+                                    }
+                                    else {
+                                        document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                                    }
+                                }
+                                else {
+                                    document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                                }
+                            }
+                            else {
+                                document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                            }
+                        }
+                        else {
+                            document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ3944").innerHTML = '<span style="color: red;">WRONG (analyze the data, profile the data, cleanse the data, integrate the data, standardize the data, data quality)</span>'
+                }
+                if (num45=="one-to-one"||num45=="one-to-many"||num45=="many-to-many"){
+                    if (num46=="one-to-one"||num46=="one-to-many"||num46=="many-to-many"){
+                        if (num47=="one-to-one"||num47=="one-to-many"||num47=="many-to-many"){
+                            document.getElementById("answ4547").innerHTML = '<span style="color: green;">CORRECT</span>'
+                        }
+                        else {
+                            document.getElementById("answ4547").innerHTML = '<span style="color: red;">WRONG (one-to-one, one-to-many, many-to-many)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ4547").innerHTML = '<span style="color: red;">WRONG (one-to-one, one-to-many, many-to-many)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ4547").innerHTML = '<span style="color: red;">WRONG (one-to-one, one-to-many, many-to-many)</span>'
+                }
+                if (num48=="first normal form"||num48=="second normal form"||num48=="third normal form"){
+                    if (num49=="first normal form"||num49=="second normal form"||num49=="third normal form"){
+                        if (num50=="first normal form"||num50=="second normal form"||num50=="third normal form"){
+                            document.getElementById("answ4850").innerHTML = '<span style="color: green;">CORRECT</span>'
+                        }
+                        else {
+                            document.getElementById("answ4850").innerHTML = '<span style="color: red;">WRONG (first normal form, second normal form, third normal form)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ4850").innerHTML = '<span style="color: red;">WRONG (first normal form, second normal form, third normal form)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ4850").innerHTML = '<span style="color: red;">WRONG (first normal form, second normal form, third normal form)</span>'
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <center>
+            <div class="container" id="con">
+            <br /><br /><br /><br />
+            <h2>COSC66</h2>
+            <hr color="black">
+            <h4>INSTRUCTION: Write the letter of the correct answer in small letters.</h4>
+            <img src="exam3.png" width="500"/>
+            <p>1. It is a subject-oriented, integrated, non-volatile, time-variant collection of data in support of managements decisions. </p>
+            <input type="text" required="required" id="ans1"/>
+            <p id="answ1"></p>
+            <p>2. This involves integration and consolidation of data from various source systems to form a single system of record. </p>
+            <input type="text" required="required" id="ans2"/>
+            <p id="answ2"></p>
+            <p>3. It refers to data that tries to describe a data set in terms of its value, content, quality, and significance. </p>
+            <input type="text" required="required" id="ans3"/>
+            <p id="answ3"></p>
+            <p>4. Are typically represented as rectangles.</p>
+            <input type="text" required="required" id="ans4"/>
+            <p id="answ4"></p>
+            <p>5. Are often represented as diamonds or lines connecting the relevant entities.</p>
+            <input type="text" required="required" id="ans5"/>
+            <p id="answ5"></p>
+            <p>6. The characteristics or properties that describe entities.</p>
+            <input type="text" required="required" id="ans6"/>
+            <p id="answ6"></p>
+            <p>7. It is the process of creating a visual representation of a system or its components. </p>
+            <input type="text" required="required" id="ans7"/>
+            <p id="answ7"></p>
+            <p>8. It is a method used to create a conceptual representation of the data structures that will be implemented in a database.</p>
+            <input type="text" required="required" id="ans8"/>
+            <p id="answ8"></p>
+            <p>9. Comprehensive software platforms that manage core business processes, including finance, inventory, and human resources.</p>
+            <input type="text" required="required" id="ans9"/>
+            <p id="answ9"></p>
+            <p>10. A set of accounting standards used primarily in the United States.</p>
+            <input type="text" required="required" id="ans10"/>
+            <p id="answ10"></p>
+            <p>11. Involves establishing policies and procedures for data management, quality, and security. </p>
+            <input type="text" required="required" id="ans11"/>
+            <p id="answ11"></p>
+            <p>12. Defining criteria for data accuracy, completeness, and reliability. </p>
+            <input type="text" required="required" id="ans12"/>
+            <p id="answ12"></p>
+            <p>13. Are segments or categories of information and/or data that are grouped together to provide insights into that segment or category. </p>
+            <input type="text" required="required" id="ans13"/>
+            <p id="answ13"></p>
+            <p>14. It represents the amount of time required by the algorithm to run to completion. </p>
+            <input type="text" required="required" id="ans14"/>
+            <p id="answ14"></p>
+            <p>15. Presented to end users for reporting and decision support, such as financial dashboards. </p>
+            <input type="text" required="required" id="ans15"/>
+            <p id="answ15"></p>
+            <p>16. A class of systems which facilitate and manage transaction-oriented applications, mainly data entry and retrieval transactions.</p>
+            <input type="text" required="required" id="ans16"/>
+            <p id="answ16"></p>
+            <p>17. A volatile intermediate area for operational data before transformation takes place. </p>
+            <input type="text" required="required" id="ans17"/>
+            <p id="answ17"></p>
+            <p>18. A subject-oriented, integrated, volatile, current- valued data store containing only corporate detailed data </p>
+            <input type="text" required="required" id="ans18"/>
+            <p id="answ18"></p>
+            <p>19. Load integrated, complete and conformed system of record into either operational data store, data warehouse, or data marts. </p>
+            <input type="text" required="required" id="ans19"/>
+            <p id="answ19"></p>
+            <p>20. A set of software design patterns used to determine the data that has changed in a database so that action can be taken on the changed data.</p>
+            <input type="text" required="required" id="ans20"/>
+            <p id="answ20"></p>
+            <p>21. Each non-key attribute should be fully functionally dependent on the _________  </p>
+            <input type="text" required="required" id="ans21"/>
+            <p id="answ21"></p>
+            <p>22. Are a fundamental tool for database modeling. </p>
+            <input type="text" required="required" id="ans22"/>
+            <p id="answ22"></p>
+            <p>23. Data modeling provides a clear picture of the data structure. </p>
+            <input type="text" required="required" id="ans23"/>
+            <p id="answ23"></p>
+            <p>24. is an organized collection of data presented in a specific and meaningful way.</p>
+            <input type="text" required="required" id="ans24"/>
+            <p id="answ24"></p>
+            <p>25. The staging area is a place where you hold temporary tables on the data warehouse server.</p>
+            <input type="text" required="required" id="ans25"/>
+            <p id="answ25"></p>
+            <br /><br /><br />
+
+            <hr color="black">
+            <h4>INSTRUCTION: Write t if the statement is true and write f if the statement is false.</h4>
+            <p>26. Attributes are depicted as triangle connected to their respective entities.</p>
+            <input type="text" required="required" id="ans26"/>
+            <p id="answ26"></p>
+            <p>27. With accurate data, users lose confidence in the data and make improper decisions. </p>
+            <input type="text" required="required" id="ans27"/>
+            <p id="answ27"></p>
+            <p>28. This framework serves as a blueprint for how data is stored, accessed, and manipulated within a system. </p>
+            <input type="text" required="required" id="ans28"/>
+            <p id="answ28"></p>
+            <p>29. Data normalization is the process of organizing data in a database to reduce redundancy and dependency.</p>
+            <input type="text" required="required" id="ans29"/>
+            <p id="answ29"></p>
+            <p>30. Data normalization typically involve one stage called normal form.</p>
+            <input type="text" required="required" id="ans30"/>
+            <p id="answ30"></p>
+            <p>31. Financial Structures refer to the systematic organization of financial data and processes within an organization.</p>
+            <input type="text" required="required" id="ans31"/>
+            <p id="answ31"></p>
+            <p>32. Data is composed of individual discreet facts that collect descriptive, quantitative, and qualitative value of business interests.</p>
+            <input type="text" required="required" id="ans32"/>
+            <p id="answ32"></p>
+            <p>33. Run-the-Business Data built to improve the quality of and synchronize two or more applications, such as a master list of customers.</p>
+            <input type="text" required="required" id="ans33"/>
+            <p id="answ33"></p>
+            <p>34. The source systems of a data warehouse can be legacy data sources, ERPs, simple flat files to complex SAP sources, or COBOL sources or other data sources like RDBMS, AS/400, web application data, etc. Commonly, these sources or operational data (OLTP data sources) are known as transactional data sources.</p>
+            <input type="text" required="required" id="ans34"/>
+            <p id="answ34"></p>
+            <p>35. Transform extracts data from either landing area or directly from source systems using ETL tools preferably or using custom scripts.</p>
+            <input type="text" required="required" id="ans35"/>
+            <p id="answ35"></p>
+            <br /><br /><br />
+
+            <hr color="black">
+            <h4>INSTRUCTION: Write your answer in small letters.</h4>
+            <p>36-38. Three types of data involved in Data Warehousing.</p>
+            <input type="text" required="required" id="ans36"/>
+            <input type="text" required="required" id="ans37"/>
+            <input type="text" required="required" id="ans38"/>
+            <p id="answ3638"></p>
+            <p>39-44. Transformation would involve the following:</p>
+            <input type="text" required="required" id="ans39"/>
+            <input type="text" required="required" id="ans40"/>
+            <input type="text" required="required" id="ans41"/>
+            <input type="text" required="required" id="ans42"/>
+            <input type="text" required="required" id="ans43"/>
+            <input type="text" required="required" id="ans44"/>
+            <p id="answ3944"></p>
+            <p>45-47. Type of Relationships.</p>
+            <input type="text" required="required" id="ans45"/>
+            <input type="text" required="required" id="ans46"/>
+            <input type="text" required="required" id="ans47"/>
+            <p id="answ4547"></p>
+            <p>48-50. Normal Forms</p>
+            <input type="text" required="required" id="ans48"/>
+            <input type="text" required="required" id="ans49"/>
+            <input type="text" required="required" id="ans50"/>
+            <p id="answ4850"></p>
+            <br /><br /><br />
+
+            <input type="submit" value="Submit" id="btnSub" onClick="checkAns()"/>
+            <br /><br /><br />
+            <a href="Home.html" target="_self"><input type="submit" value="Back" id="btnSub"/></a>
+            <a href="index.html" target="_self"><input type="submit" value="Cancel" id="btnSub"/></a>
+            <br /><br /><br />
+            </div>
+        </center>
+    </body>
+    </html>

@@ -1,0 +1,436 @@
+<!DOCType html>
+
+<html>
+    <head>
+        <title>Reviewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #con{
+                background-color: rgb(216, 255, 191);
+            }
+            #btnSub{
+                background-color: pink;
+            }
+            .full-screen {
+                width: 100vw;  /* 100% of the viewport width */
+                height: 100vh; /* 100% of the viewport height */
+                background-color: lightgreen; /* Example background color */
+                display: flex; /* Optional: for centering content */
+                justify-content: center; /* Optional: horizontal centering */
+                align-items: center; /* Optional: vertical centering */
+            }
+        </style>
+        <script type="text/javascript">
+            var num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, num11, num12, num13, num14, num15, num16, num17, num18, num19, num20;
+            var num21, num22, num23, num24, num25, num26, num27, num28, num29, num30, num31, num31, num33, num34, num35, num36, num37, num38, num39, num40;
+    
+            function checkAns(){
+                num1 = document.getElementById("ans1").value;
+                num2 = document.getElementById("ans2").value;
+                num3 = document.getElementById("ans3").value;
+                num4 = document.getElementById("ans4").value;
+                num5 = document.getElementById("ans5").value;
+                num6 = document.getElementById("ans6").value;
+                num7 = document.getElementById("ans7").value;
+                num8 = document.getElementById("ans8").value;
+                num9 = document.getElementById("ans9").value;
+                num10 = document.getElementById("ans10").value;
+                num11 = document.getElementById("ans11").value;
+                num12 = document.getElementById("ans12").value;
+                num13 = document.getElementById("ans13").value;
+                num14 = document.getElementById("ans14").value;
+                num15 = document.getElementById("ans15").value;
+                num16 = document.getElementById("ans16").value;
+                num17 = document.getElementById("ans17").value;
+                num18 = document.getElementById("ans18").value;
+                num19 = document.getElementById("ans19").value;
+                num20 = document.getElementById("ans20").value;
+                num21 = document.getElementById("ans21").value;
+                num22 = document.getElementById("ans22").value;
+                num23 = document.getElementById("ans23").value;
+                num24 = document.getElementById("ans24").value;
+                num25 = document.getElementById("ans25").value;
+                num26 = document.getElementById("ans26").value;
+                num27 = document.getElementById("ans27").value;
+                num28 = document.getElementById("ans28").value;
+                num29 = document.getElementById("ans29").value;
+                num30 = document.getElementById("ans30").value;
+                num31 = document.getElementById("ans31").value;
+                num32 = document.getElementById("ans32").value;
+                num33 = document.getElementById("ans33").value;
+                num34 = document.getElementById("ans34").value;
+                num35 = document.getElementById("ans35").value;
+                num36 = document.getElementById("ans36").value;
+                num37 = document.getElementById("ans37").value;
+                num38 = document.getElementById("ans38").value;
+                num39 = document.getElementById("ans39").value;
+                num40 = document.getElementById("ans40").value;
+
+                if (num1 == "digrapo"){
+                    document.getElementById("answ1").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ1").innerHTML = '<span style="color: red;">WRONG (digrapo) </span>'
+                }
+                if (num2 == "panitikan"){
+                    document.getElementById("answ2").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ2").innerHTML = '<span style="color: red;">WRONG (panitikan) </span>'
+                }
+                if (num3 == "kastila"){
+                    document.getElementById("answ3").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ3").innerHTML = '<span style="color: red;">WRONG (kastila) </span>'
+                }
+                if (num4 == "panahon ng hapon"){
+                    document.getElementById("answ4").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ4").innerHTML = '<span style="color: red;">WRONG (panahon ng hapon)</span>'
+                }
+                if (num5 == "baybay"){
+                    document.getElementById("answ5").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ5").innerHTML = '<span style="color: red;">WRONG (baybay) </span>'
+                }
+                if (num6 == "lope k. santos" || num6 == "Lope K. Santos" || num6 == "lope santos"){
+                    document.getElementById("answ6").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ6").innerHTML = '<span style="color: red;">WRONG (Lope K. Santos)</span>'
+                }
+                if (num7 == "talambuhay"){
+                    document.getElementById("answ7").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ7").innerHTML = '<span style="color: red;">WRONG (talambuhay) </span>'
+                }
+                if (num8 == "patula" || num8 == "panulaan" || num8 == "patula o panulaan"){
+                    document.getElementById("answ8").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ8").innerHTML = '<span style="color: red;">WRONG (patula o panulaan)</span>'
+                }
+                if (num9 == "tulang patnigan"){
+                    document.getElementById("answ9").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ9").innerHTML = '<span style="color: red;">WRONG (tulang patnigan) </span>'
+                }
+                if (num10 == 1972){
+                    document.getElementById("answ10").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ10").innerHTML = '<span style="color: red;">WRONG (1972) </span>'
+                }
+                if (num11 == "edukasyon"){
+                    document.getElementById("answ11").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ11").innerHTML = '<span style="color: red;">WRONG (edukasyon) </span>'
+                }
+                if (num12 == "tanaga"){
+                    document.getElementById("answ12").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ12").innerHTML = '<span style="color: red;">WRONG (tanaga) </span>'
+                }
+                if (num13 == 17){
+                    document.getElementById("answ13").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ13").innerHTML = '<span style="color: red;">WRONG (17) </span>'
+                }
+                if (num14 == "india"){
+                    document.getElementById("answ14").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ14").innerHTML = '<span style="color: red;">WRONG (india) </span>'
+                }
+                if (num15 == "talumpati"){
+                    document.getElementById("answ15").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ15").innerHTML = '<span style="color: red;">WRONG (talumpati) </span>'
+                }
+                if (num16 == "awit"){
+                    document.getElementById("answ16").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ16").innerHTML = '<span style="color: red;">WRONG (awit)</span>'
+                }
+                if (num17 == "jose rizal" || num17 == "Jose rizal" ){
+                    document.getElementById("answ17").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ17").innerHTML = '<span style="color: red;">WRONG< (Jose Rizal) /span>'
+                }
+                if (num18 == "fairy tale"){
+                    document.getElementById("answ18").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ18").innerHTML = '<span style="color: red;">WRONG (fairy tale)</span>'
+                }
+                if (num19 == "literatura"){
+                    document.getElementById("answ19").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ19").innerHTML = '<span style="color: red;">WRONG (literatura)</span>'
+                }
+                if (num20 == 29){
+                    document.getElementById("answ20").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ20").innerHTML = '<span style="color: red;">WRONG (29)</span>'
+                }
+                if (num21 == "panahon ng amerikano"){
+                    document.getElementById("answ21").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ21").innerHTML = '<span style="color: red;">WRONG (panahon ng amerikano)</span>'
+                }
+                if (num22 == "panahon ng kastila"){
+                    document.getElementById("answ22").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ22").innerHTML = '<span style="color: red;">WRONG (panahon ng kastila)</span>'
+                }
+                if (num23 == "panahon ng amerikano"){
+                    document.getElementById("answ23").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ23").innerHTML = '<span style="color: red;">WRONG (panahon ng amerikano)</span>'
+                }
+                if (num24 == "panahon ng katutubo"){
+                    document.getElementById("answ24").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ24").innerHTML = '<span style="color: red;">WRONG (panahon ng katutubo)</span>'
+                }
+                if (num25 == "panahon ng batas militar"){
+                    document.getElementById("answ25").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ25").innerHTML = '<span style="color: red;">WRONG (panahon ng batas militar)</span>'
+                }
+                if (num26 == "kasalukuyang panahon"){
+                    document.getElementById("answ26").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ26").innerHTML = '<span style="color: red;">WRONG (kasalukuyang panahon)</span>'
+                }
+                if (num27 == "panahon ng amerikano"){
+                    document.getElementById("answ27").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ27").innerHTML = '<span style="color: red;">WRONG (panahon ng amerikano)</span>'
+                }
+                if (num28 == "panahon ng kastila"){
+                    document.getElementById("answ28").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ28").innerHTML = '<span style="color: red;">WRONG (panahon ng kastila)</span>'
+                }
+                if (num29 == "panahon ng katutubo"){
+                    document.getElementById("answ29").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ29").innerHTML = '<span style="color: red;">WRONG (panahon ng katutubo)</span>'
+                }
+                if (num30 == "kasalukuyang panahon"){
+                    document.getElementById("answ30").innerHTML = '<span style="color: green;">CORRECT</span>'
+                }
+                else {
+                    document.getElementById("answ30").innerHTML = '<span style="color: red;">WRONG (kasalukuyang panahon)</span>'
+                }
+                if (num31 == "alamat" || num31 == "kuwentong bayan" || num31 == "epiko" || num31 == "salawikain" || num31 == "bugtong"){
+                    if (num32 == "alamat" || num32 == "kuwentong bayan" || num32 == "epiko" || num32 == "salawikain" || num32 == "bugtong"){
+                        if (num33 == "alamat" || num33 == "kuwentong bayan" || num33 == "epiko" || num33 == "salawikain" || num33 == "bugtong"){
+                            if (num34 == "alamat" || num34 == "kuwentong bayan" || num34 == "epiko" || num34 == "salawikain" || num34 == "bugtong"){
+                                if (num35 == "alamat" || num35 == "kuwentong bayan" || num35 == "epiko" || num35 == "salawikain" || num35 == "bugtong"){
+                                    document.getElementById("answ3135").innerHTML = '<span style="color: green;">CORRECT</span>'
+                                }
+                                else {
+                                    document.getElementById("answ3135").innerHTML = '<span style="color: red;">WRONG (alamat, kuwentong bayan, epiko, salawikain, bugtong)</span>'
+                                }
+                            }
+                            else {
+                                document.getElementById("answ3135").innerHTML = '<span style="color: red;">WRONG (alamat, kuwentong bayan, epiko, salawikain, bugtong)</span>'
+                            }
+                        }
+                        else {
+                            document.getElementById("answ3135").innerHTML = '<span style="color: red;">WRONG (alamat, kuwentong bayan, epiko, salawikain, bugtong)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ3135").innerHTML = '<span style="color: red;">WRONG (alamat, kuwentong bayan, epiko, salawikain, bugtong)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ3135").innerHTML = '<span style="color: red;">WRONG (alamat, kuwentong bayan, epiko, salawikain, bugtong)</span>'
+                }
+                if (num36 == "god" || num36 == "gold" || num36 == "glory"){
+                    if (num37 == "god" || num37 == "gold" || num37 == "glory"){
+                        if (num38 == "god" || num38 == "gold" || num38 == "glory"){
+                            document.getElementById("answ3638").innerHTML = '<span style="color: green;">CORRECT</span>'
+                        }
+                        else {
+                            document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (god, gold, glory)</span>'
+                        }
+                    }
+                    else {
+                        document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (god, gold, glory)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ3638").innerHTML = '<span style="color: red;">WRONG (god, gold, glory)</span>'
+                }
+                if (num39 == "tuluyan o prosa" || num39 == "patula o panulaan" || num39 == "tuluyan"|| num39 == "prosa"|| num39 == "patula"|| num39 == "panulaan" ){
+                    if (num40 == "tuluyan o prosa" || num40 == "patula o panulaan" || num40 == "tuluyan"|| num40 == "prosa"|| num40 == "patula"|| num40 == "panulaan" ){
+                        document.getElementById("answ3940").innerHTML = '<span style="color: green;">CORRECT</span>'
+                    }
+                    else {
+                        document.getElementById("answ3940").innerHTML = '<span style="color: red;">WRONG (tuluyan o prosa at patula o panulaan)</span>'
+                    }
+                }
+                else {
+                    document.getElementById("answ3940").innerHTML = '<span style="color: red;">WRONG (tuluyan o prosa at patula o panulaan)</span>'
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <center>
+            <div class="container" id="con">
+            <br /><br /><br /><br />
+            <h2>FILI3</h2>
+            <hr color="black">
+            <h4>PANUTO: Isulat ang mga sagot gamit ang maliliit na letra.</h4>
+            <p>1. Ano ang tawag sa RR LL at CC? </p>
+            <input type="text" required="required" id="ans1"/>
+            <p id="answ1"></p>
+            <p>2. Ito ay nagpapahayag ng mga damdamin ng tao. </p>
+            <input type="text" required="required" id="ans2"/>
+            <p id="answ2"></p>
+            <p>3. Naging bahagi ng Wikang Pilipino ang maraming salitang _________. </p>
+            <input type="text" required="required" id="ans3"/>
+            <p id="answ3"></p>
+            <p>4. Ito ay kilala bilang "Gintong Panahon ng Panitikang Filipino".</p>
+            <input type="text" required="required" id="ans4"/>
+            <p id="answ4"></p>
+            <p>5. Ito ay nangangahulugang islot o hampas ng alon sa dalampasigan.</p>
+            <input type="text" required="required" id="ans5"/>
+            <p id="answ5"></p>
+            <p>6. Siya ang bumuo ng abakada.</p>
+            <input type="text" required="required" id="ans6"/>
+            <p id="answ6"></p>
+            <p>7.Kasaysayan ng buhay ng isang tao na base sa mga tunay na impormasyon.</p>
+            <input type="text" required="required" id="ans7"/>
+            <p id="answ7"></p>
+            <p>8. May sukat, tugma, taludtod at saknong. </p>
+            <input type="text" required="required" id="ans8"/>
+            <p id="answ8"></p>
+            <p>9. Tulang sagutan na itinatanghal ng mga nagtutunggaling makata.</p>
+            <input type="text" required="required" id="ans9"/>
+            <p id="answ9"></p>
+            <p>10. Kailan idineklara ang Panahon ng Batas Militar? </p>
+            <input type="text" required="required" id="ans10"/>
+            <p id="answ10"></p>
+            <p>11. Ano ang naging pangunahing ipinamana ng mga Amerikano? </p>
+            <input type="text" required="required" id="ans11"/>
+            <p id="answ11"></p>
+            <p>12. Ito ay may apat na taludtod at ang bilang ng pantig ay 7-7-7-7. </p>
+            <input type="text" required="required" id="ans12"/>
+            <p id="answ12"></p>
+            <p>13. Ilang letra mayroon ang Baybayin? </p>
+            <input type="text" required="required" id="ans13"/>
+            <p id="answ13"></p>
+            <p>14. Sa anong bansa nang galing ang pinaka matandang epiko sa mundo? </p>
+            <input type="text" required="required" id="ans14"/>
+            <p id="answ14"></p>
+            <p>15. Isinalaysay nito ang mga kaisipan o opinyon ng isang tao. </p>
+            <input type="text" required="required" id="ans15"/>
+            <p id="answ15"></p>
+            <p>16. Tulang may sukat na lalabindalawahin (12).</p>
+            <input type="text" required="required" id="ans16"/>
+            <p id="answ16"></p>
+            <p>17. Sino ang may sagisag-panulat na Dimasalang? </p>
+            <input type="text" required="required" id="ans17"/>
+            <p id="answ17"></p>
+            <p>18. Ano ang ipinakilala ng mga Amerikano sa mga Pilipino? </p>
+            <input type="text" required="required" id="ans18"/>
+            <p id="answ18"></p>
+            <p>19. Ang "titik" ay nangangahulugang? </p>
+            <input type="text" required="required" id="ans19"/>
+            <p id="answ19"></p>
+            <p>20. Ilan ang titik ng makabagong alpabetong filipino? </p>
+            <input type="text" required="required" id="ans20"/>
+            <p id="answ20"></p>
+            <br /><br /><br />
+
+            <hr color="black">
+            <h4>PANUTO: Isulat kung ito ay "Panahon ng Katutubo", "Panahon ng Kastila", "Panahon ng Amerikano", "Panahon ng Hapon", "Panahon ng Batas Militar", o "Kasalukuyang Panahon" gamit ang maliliit na letra.</h4>
+            <p>21. Dula ang naging pangunahing panitikan sa panahong ito. </p>
+            <input type="text" required="required" id="ans21"/>
+            <p id="answ21"></p>
+            <p>22. Dumating sila na ang pangunahing layunin ay ihasik ang Kristiyanismo, maghanap ng ginto.</p>
+            <input type="text" required="required" id="ans22"/>
+            <p id="answ22"></p>
+            <p>23. Sa panahong ito nagsimula ang pelikula sa Pilipinas. </p>
+            <input type="text" required="required" id="ans23"/>
+            <p id="answ23"></p>
+            <p>24. Karamihan sa mga panitikang ito ay pasalin-dila.</p>
+            <input type="text" required="required" id="ans24"/>
+            <p id="answ24"></p>
+            <p>25. Pinahinto ang mga pampahayagan at maging samahang pampaaralan.</p>
+            <input type="text" required="required" id="ans25"/>
+            <p id="answ25"></p>
+            <p>26. Para sa mga mamamayang Pilipino, ito pa lamang ang tunay na Bagong Republika.</p>
+            <input type="text" required="required" id="ans26"/>
+            <p id="answ26"></p>
+            <p>27.Pinauso ang Balagtasan katumbas ng Debate.</p>
+            <input type="text" required="required" id="ans27"/>
+            <p id="answ27"></p>
+            <p>28. Nauso rin ang Carillo o mga dulang puppet na yari sa karton noong panahong ito </p>
+            <input type="text" required="required" id="ans28"/>
+            <p id="answ28"></p>
+            <p>29. Ilan sa mga panitikan nito ay nasulat sa mga piraso ng kawayan, matitibay na kahoy at makikinis na bato</p>
+            <input type="text" required="required" id="ans29"/>
+            <p id="answ29"></p>
+            <p>30. Namulat ang mga Pilipino sa kahalagahan ng Wikang Pambansa.</p>
+            <input type="text" required="required" id="ans30"/>
+            <p id="answ30"></p>
+            <br /><br /><br />
+
+            <hr color="black">
+            <h4>PANUTO: Isulat ang sagot sa maliliit na letra.</h4>
+            <p>31-35. Mga Uri ng Panitikang Sumibol at Sumiklat sa Sinaunang Panahon. </p>
+            <input type="text" required="required" id="ans31"/>
+            <input type="text" required="required" id="ans32"/>
+            <input type="text" required="required" id="ans33"/>
+            <input type="text" required="required" id="ans34"/>
+            <input type="text" required="required" id="ans35"/>
+            <p id="answ3135"></p>
+            <p>36-38. Tatlong G na dala ng mga Kastila</p>
+            <input type="text" required="required" id="ans36"/>
+            <input type="text" required="required" id="ans37"/>
+            <input type="text" required="required" id="ans38"/>
+            <p id="answ3638"></p>
+            <p>39-40. Dalawang Anyo ng Panitikan</p>
+            <input type="text" required="required" id="ans39"/>
+            <input type="text" required="required" id="ans40"/>
+            <p id="answ3940"></p>
+
+            <input type="submit" value="Submit" id="btnSub" onClick="checkAns()"/>
+            <br /><br /><br />
+            <a href="Home.html" target="_self"><input type="submit" value="Back" id="btnSub"/></a>
+            <a href="index.html" target="_self"><input type="submit" value="Cancel" id="btnSub"/></a>
+            <br /><br /><br />
+            </div>
+        </center>
+    </body>
+    </html>
